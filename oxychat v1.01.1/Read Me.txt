@@ -1,0 +1,22 @@
+1).Open Source Code folder and open ChatC.java program and change IPAddress(192.168.0.5) in main method.
+
+2).go to Oracle sqlplus with username young and password young5050
+	then create table with below syntax
+	"create table reg(uname varchar2(20),password varchar2(20),fname 	
+varchar2(20),lname varchar2(20),design varchar2(20),city varchar2(20),hintQues varchar2(50),hintans varchar2(30))"
+
+3).for creating DSN to connect the Oracle database:
+	1.ControlPanel>Performance And MAintenance>Adminisrative tools>Data Sources>UserDSN>
+	2. Click Add to add dsn
+	3. select Oracle Driver 
+	4. Enter Data Source name as "chat" and username young
+	5. then click ok.
+	6. chat DSN was created succesfully.
+
+4).install java and set the classpath to the java bin folder
+
+4). from source code folder compile the files as "javac ChatC.java" and "javac ChatS.java"
+
+5). Run the ChatS file as "java ChatS"
+
+	from another command prompt run the client application as "java 	ChatS"
